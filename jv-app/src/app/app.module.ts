@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { Home } from './pages/home/home.component';
-import { Portfolio, PortfolioComponent } from './pages/portfolio/portfolio.component';
+import { Portfolio } from './pages/portfolio/portfolio.component';
 import { About } from './pages/about/about.component';
 import { Contact } from './pages/contact/contact.component';
 import { Blog } from './pages/blog/blog.component';
@@ -18,8 +18,7 @@ import { NavBar } from './features/nav-bar/nav-bar.component';
     About,
     Contact,
     Blog,
-    NavBar,
-    PortfolioComponent
+    NavBar
   ],
   imports: [
     BrowserModule,
