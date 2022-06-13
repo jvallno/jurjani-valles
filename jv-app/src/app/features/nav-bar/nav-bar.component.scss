@@ -1,8 +1,8 @@
-li.nav-item {
+a.nav-link {
     border-bottom: 1px solid #fff0;
 }
 
-li.nav-item:hover {
+a.nav-link.active {
     border-bottom: 1px solid #100f0f;
     transition: 1s;
 }
