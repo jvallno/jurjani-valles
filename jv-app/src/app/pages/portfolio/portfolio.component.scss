@@ -1,0 +1,77 @@
+.content-portfolio {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profOne {
+    position: relative;
+    animation-name: profOne;
+    animation-duration: 1s;  
+    animation-fill-mode: both;
+}
+@keyframes profOne {
+    from {top: 50px;}
+    to {top: 0px;}
+}
+
+.profTwo {
+    position: relative;
+    animation-name: profTwo;
+    animation-duration: 1s; 
+    animation-delay: .10s; 
+    animation-fill-mode: both;
+}
+@keyframes profTwo {
+    from {top: 50px;}
+    to {top: 0px;}
+}
+
+.profThree {
+    position: relative;
+    animation-name: profThree;
+    animation-duration: 1s; 
+    animation-delay: .30s; 
+    animation-fill-mode: both;
+}
+@keyframes profThree {
+    from {top: 50px;}
+    to {top: 0px;}
+}
+
+.profFour {
+    position: relative;
+    animation-name: profFour;
+    animation-duration: 1s; 
+    animation-delay: 1s; 
+    animation-fill-mode: both;
+}
+@keyframes profFour {
+    from {top: 50px;}
+    to {top: 0px;}
+}
+
+.profFive {
+    position: relative;
+    animation-name: profFive;
+    animation-duration: 1s; 
+    animation-delay: 1.10s; 
+    animation-fill-mode: both;
+}
+@keyframes profFive {
+    from {top: 50px;}
+    to {top: 0px;}
+}
+
+.profSix {
+    position: relative;
+    animation-name: profSix;
+    animation-duration: 1s; 
+    animation-delay: 1.30s; 
+    animation-fill-mode: both;
+}
+@keyframes profSix {
+    from {top: 50px;}
+    to {top: 0px;}
+}
