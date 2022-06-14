@@ -40,10 +40,28 @@ img.mandala-left{
         animation-name: moveContent;
         animation-duration: 1s;  
         animation-fill-mode: both;
-      }
+    }
     @keyframes moveContent {
         from {right: 50px;}
         to {right: 0px;}
+    }
+    .about-img-content {
+        z-index: 999;
+        position: absolute;
+        width: 15em;
+        bottom: 20px;
+        left: 0;
+    }
+    .about-img-content {
+        animation-name: moveRight;
+        animation-duration: 4s;  
+        animation-delay: 2s;
+        animation-timing-function: ease-in;
+        animation-fill-mode: both;
+    }
+    @keyframes moveRight {
+        from {left: -250px;}
+        to {left: 470px;}
     }
 
 }
@@ -54,6 +72,9 @@ img.mandala-left{
     .content-about {
         p{
             text-align: center;
+        }
+        .about-img-content{
+            display: none;
         }
     }
 }
