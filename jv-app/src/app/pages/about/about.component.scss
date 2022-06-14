@@ -18,12 +18,34 @@ img.mandala-left{
     justify-content: center;
     
     p{
+        color: #0E3160;
         font-size: 1.4em;
         text-align: left;
     }
     img {
         width: 70%;
     }
+    p.about-content {
+        position: relative;
+        animation-name: moveUp;
+        animation-duration: 1s;  
+        animation-fill-mode: both;
+    }
+    @keyframes moveUp {
+        from {top: 50px;}
+        to {top: 0px;}
+    }
+    .about-img {
+        position: relative;
+        animation-name: moveContent;
+        animation-duration: 1s;  
+        animation-fill-mode: both;
+      }
+    @keyframes moveContent {
+        from {right: 50px;}
+        to {right: 0px;}
+    }
+
 }
 @media only screen and (max-width: 768px) {
     .content-about-child{
