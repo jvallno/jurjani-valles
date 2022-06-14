@@ -19,10 +19,10 @@ const routes: Routes = [
     path: 'contact',
     component: Contact
   },
-  {
-    path: 'blog',
-    component: Blog
-  },
+  // {
+  //   path: 'blog',
+  //   component: Blog
+  // },
   {
     path: 'portfolio',
     component: Portfolio
