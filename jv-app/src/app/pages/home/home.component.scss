@@ -22,7 +22,7 @@ img.mandala-left{
         font-size: 3.5em;
     }
     img {
-        width: 80%;
+        width: 80%; 
     }
     img.epds-img, h1.epds-content {
         position: relative;
@@ -31,8 +31,8 @@ img.mandala-left{
         animation-fill-mode: both;
       }
       @keyframes moveUp {
-        from {top: 50px;}
-        to {top: 0px;}
+        from {top: 50px;} 
+        to {top: 0px;} 
       }
     h1.epds-content {
         position: relative;
