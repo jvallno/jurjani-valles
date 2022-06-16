@@ -3,6 +3,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    .portfolio-contents{
+        text-align: left;
+
+        a{
+            text-decoration: none;
+        }
+    }
 }
 
 .profOne {
