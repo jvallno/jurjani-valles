@@ -1,0 +1,30 @@
+
+.content-contact{
+    .contact-list{
+        display: flex;
+        align-items: center;
+        ul{
+            list-style-type: none;
+            padding: 0;
+            li{
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .contact-list, .contact-map{
+        position: relative;
+        animation-name: moveUp;
+        animation-duration: 1s;  
+        animation-fill-mode: both;
+
+    }
+    .contact-list{
+        animation-delay: .25s;
+    }
+    @keyframes moveUp {
+        from {top: 50px;}
+        to {top: 0px;}
+    }
+}
