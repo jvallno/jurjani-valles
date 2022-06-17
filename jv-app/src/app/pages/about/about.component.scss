@@ -1,10 +1,6 @@
 .content-about {
     text-align: center;
     height: 34em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
     p{
         color: #0E3160;
         font-size: 1.4em;
@@ -14,24 +10,10 @@
         width: 70%;
     }
     p.about-content {
-        position: relative;
         animation-name: moveUp;
-        animation-duration: 1s;  
-        animation-fill-mode: both;
-    }
-    @keyframes moveUp {
-        from {top: 50px;}
-        to {top: 0px;}
     }
     .about-img {
-        position: relative;
         animation-name: moveContent;
-        animation-duration: 1s;  
-        animation-fill-mode: both;
-    }
-    @keyframes moveContent {
-        from {right: 50px;}
-        to {right: 0px;}
     }
     .about-img-content {
         z-index: 999;
@@ -46,10 +28,6 @@
         animation-delay: 2s;
         animation-timing-function: ease-in;
         animation-fill-mode: both;
-    }
-    @keyframes moveRight {
-        from {left: -250px;}
-        to {left: 150px;}
     }
 
 }
