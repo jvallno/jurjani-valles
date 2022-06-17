@@ -12,3 +12,27 @@ img.mandala-left{
     position: absolute;
     left: 0;
 }
+.content-about, .content-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+p.about-content, .contact-list, .contact-map, .about-img, img.epds-img, h1.epds-content {
+    position: relative;
+    animation-duration: 1s;  
+    animation-fill-mode: both;
+}
+
+@keyframes moveUp {
+    from {top: 50px;}
+    to {top: 0px;}
+}
+@keyframes moveContent {
+    from {right: 50px;}
+    to {right: 0px;}
+}
+@keyframes moveRight {
+    from {left: -250px;}
+    to {left: 150px;}
+}

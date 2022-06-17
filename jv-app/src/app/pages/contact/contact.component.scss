@@ -1,5 +1,6 @@
 
 .content-contact{
+    height: 34em;
     .contact-list{
         display: flex;
         align-items: center;
@@ -13,18 +14,12 @@
             }
         }
     }
+    
     .contact-list, .contact-map{
-        position: relative;
         animation-name: moveUp;
-        animation-duration: 1s;  
-        animation-fill-mode: both;
-
     }
+
     .contact-list{
         animation-delay: .25s;
-    }
-    @keyframes moveUp {
-        from {top: 50px;}
-        to {top: 0px;}
     }
 }
