@@ -10,6 +10,8 @@ import { Contact } from './pages/contact/contact.component';
 import { Blog } from './pages/blog/blog.component';
 import { NavBar } from './features/nav-bar/nav-bar.component';
 import { Footer } from './features/footer/footer.component';
+import { MobileNavbar } from './features/mobile-navbar/mobile-navbar.component';
+import { MandanaArt } from './features/mandana-art/mandana-art.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { Footer } from './features/footer/footer.component';
     Contact,
     Blog,
     NavBar,
-    Footer
+    Footer,
+    MobileNavbar,
+    MandanaArt
   ],
   imports: [
     BrowserModule,

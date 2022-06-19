@@ -18,7 +18,7 @@
         z-index: 999;
         position: absolute;
         width: 15em;
-        bottom: 20px;
+        bottom: -50px;
         left: 0;
     }
     .about-img-content {
@@ -29,17 +29,4 @@
         animation-fill-mode: both;
     }
 
-}
-@media only screen and (max-width: 768px) {
-    .content-about-child{
-        margin-top: 10em;
-    }
-    .content-about {
-        p{
-            text-align: center;
-        }
-        .about-img-content{
-            display: none;
-        }
-    }
 }
