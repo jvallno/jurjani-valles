@@ -1,0 +1,25 @@
+.mobile-navbar{
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    ul{
+        list-style-type: none;
+        overflow: hidden;
+        li{
+            float: none; 
+            display: inline-block;
+        }
+    }
+    .mobile-navbar-list{
+        padding: 0;
+        margin-bottom: 0;
+        background-color: #a92420;
+        li{
+            padding: 15px;
+        }
+        li.active{
+            background-color: #8d0400;
+        }
+    }
+}
